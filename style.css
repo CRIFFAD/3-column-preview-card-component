@@ -1,0 +1,86 @@
+@import url("https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@100..900&family=Lexend+Deca:wght@100..900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.body {
+  font-family: "Lexend Deca", sans-serif;
+}
+h1 {
+  font-family: "Big Shoulders Display", sans-serif;
+}
+section{
+  margin-top: 70px;
+  margin-bottom: 70px;
+}
+ .sedans{
+  background-color: hsl(31, 77%, 52%);
+  padding: 15px; 
+  border-top-left-radius: 7px;
+  border-top-right-radius: 7px;
+  margin-top: 200px;
+ }
+  h1{
+    margin-right: 50px;
+    color: hsla(0, 0%, 100%, 0.75);
+  } 
+  p{
+    color: hsla(0, 0%, 100%, 0.75);
+    margin: 20px;
+  }
+button{
+  padding: 10px;
+  border-radius: 20px;
+  border: none;
+  margin-top: 20px;
+}
+button:hover{
+  background-color: transparent;
+  cursor: pointer;
+  color: hsla(0, 0%, 100%, 0.75);
+  border: 2px solid hsla(0, 0%, 100%, 0.75);
+}
+.debugg{
+ height: 350px;     
+ width: 200px;
+ margin: auto;
+}
+.suvs{
+  background-color: hsl(184, 100%, 22%);
+  padding: 15px;
+}
+.luxury{
+  background-color: hsl(179, 100%, 13%);
+  padding: 15px;
+}
+.button1{
+  color: hsl(31, 77%, 52%);
+  
+}
+.button2{
+  color: hsl(184, 100%, 22%);
+}
+.button3{
+  color: hsl(179, 100%, 13%);
+  margin-top: 23px;
+}
+@media screen and (min-width: 590px){
+  section{display: flex;
+    justify-content: center;
+    margin-top: 150px;
+  }
+  .sedans{
+  border-top-right-radius: 0px;
+  border-top-right-radius: 0px;
+  }
+  .luxury{
+    border-top-right-radius: 7px;
+    border-top-left-radius: 0px;  
+  }
+  .debugg{
+    margin: 0;
+  }
+}
+
